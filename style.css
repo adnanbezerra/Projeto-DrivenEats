@@ -76,7 +76,7 @@
 }
 
 .ultimo {
-    margin-bottom: 127px;
+    margin-bottom: 107px;
 }
 
 .pedido {
@@ -88,13 +88,14 @@
     
     padding-left: 20px;
 
-    width: 100%;
+    width: 95%;
 }
 
-img {
+.escolha img {
     height: 87px;
     width: 144px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 .escolha {
@@ -114,20 +115,33 @@ img {
     flex-direction: column;
 }
 
-
-
 .nome-comida {
     font-size: 16px;
     color: #333333;
     font-weight: bold;
+    margin-top: 8px;
 }
 
 .descricao-comida {
     font-size: 15px;
     color: #A6a6a6;
+    margin-top: 5px;
 }
 
 .preço {
     font-size: 16px;
     color: #000000;
+    margin-top: 5px;
+}
+
+.conteudo-escolha {
+    display: flex;
+    flex-direction: column;
+    width: 144px;
+    margin: 0 10px;
+}
+
+.botao-selecionado {
+    background-color: #32b72f;
+    font-weight: bold;
 }
