@@ -5,15 +5,26 @@
 .titulo {
     font-family: 'Righteous', cursive;
     font-size: 44px;
+    margin-bottom: 5px;
 }
 
 .subtitulo {
     font-size: 18px;
 }
 
-.barra-superior {
+.conteudo {
     width: 100%;
+    background-color: #E5E5E5;
+    height: 1100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-superior {
     height: 92px;
+    width: 100%;
+
     background-color: #CF2B2B;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: white;
@@ -23,4 +34,99 @@
     justify-content: center;
 
     padding-left: 20px;
+
+    position: fixed;
+    top: 0;
+}
+
+.barra-inferior {
+    height: 92px;
+    background: white;
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedir {
+    border-radius: 50px; 
+    width: 90%;
+    height: 80%;
+    font-size: 18px;
+    color: white;
+    background-color: #CBCBCB;
+    font-family: 'Roboto', sans-serif;
+
+    border: 0;
+}
+
+.titulo-bebida, .titulo-prato, .titulo-sobremesa {
+    font-family: 'Righteous', cursive;   
+    font-size: 26px;
+    padding-left: 20px;
+    font-weight: 400;
+    margin-top: 27px;
+}
+
+.primeiro {
+    margin-top: 127px;
+}
+
+.ultimo {
+    margin-bottom: 127px;
+}
+
+.pedido {
+    margin-top: 17px;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    align-items: center;
+    
+    width: 100%;
+}
+
+img {
+    height: 87px;
+    width: 144px;
+    object-fit: cover;
+}
+
+.escolha {
+    margin: 0px 10px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 9px;
+    border: 0;
+
+    width: 172px;
+    height: 216px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+
+
+.nome-comida {
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.descricao-comida {
+    font-size: 15px;
+    color: #A6a6a6;
+}
+
+.preço {
+    font-size: 16px;
+    color: #000000;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,17 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 
 <!-- Aqui inicia-se o body -->
+
 <body>
 
     <!-- Div contendo toda a tela -->
@@ -24,20 +28,89 @@
         <!-- A barra superior, com título e descrição-->
         <div class="barra-superior">
             <p class="titulo">DrivenEats</p>
-            <p class="subtitulo">Sua comida em 6 minutos</p>
+            <p class="subtitulo">Sua escolha em 6 minutos</p>
         </div>
 
         <!-- Primeira linha de itens a serem selecionados -->
-        <div class="prato"></div>
+        <p class="titulo-prato primeiro">Primeiro, seu prato</p>
+        <div class="pedido">
+            <div class="escolha">
+                <img src="images/comida/cuscus-com-ovo.jpg" alt="">
+                <p class="nome-comida">Cuscuz com ovo</p>
+                <p class="descricao-comida">Negóss vei bom da mulesta dos cachorro</p>
+                <p class="preço">R$ 15,00</p>
+            </div>
+            <div class="escolha">
+                <img src="images/comida/Pamonha.jpg" alt="">
+                <p class="nome-comida">Pamonha</p>
+                <p class="descricao-comida">Pamonha quentinha saindo do forno</p>
+                <p class="preço">R$ 17,00</p>
+            </div>
+            <div class="escolha">
+                <img src="images/comida/photo.jpg" alt="">
+                <p class="nome-comida">Canjica</p>
+                <p class="descricao-comida">Canjica docinha do balacobaco de verdade</p>
+                <p class="preço">R$ 13,00</p>
+            </div>
+        </div>
 
         <!-- Segunda linha de itens a serem selecionados -->
-        <div class="bebida"></div>
+        <p class="titulo-bebida">Agora, sua bebida</p>
+        <div class="pedido">
+            <div class="escolha">
+                <img src="images/bebida/269395-suco-de-uva-e-vinho-quais-as-diferencas-para-a-saude-1.jpg" alt="">
+                <p class="nome-comida">Suco de uva</p>
+                <p class="descricao-comida">Docinho sem açúcar direto do pé</p>
+                <p class="preço">R$ 5,00</p>
+            </div>
+            <div class="escolha">
+                <img src="images/bebida/adesivo-parede-decoracao-suco-de-laranja-fruta-lanchonete-adesivo-decorativo.jpg"
+                    alt="">
+                <p class="nome-comida">Suco de laranja</p>
+                <p class="descricao-comida">Negóss vei bom da mulesta dos cachorro</p>
+                <p class="preço">R$ 4,50</p>
+            </div>
+            <div class="escolha">
+                <img src="images/bebida/Suco-maracujá.png" alt="">
+                <p class="nome-comida">Suco de maracujá</p>
+                <p class="descricao-comida">Negóss vei bom da mulesta dos cachorro</p>
+                <p class="preço">R$ 6,00</p>
+            </div>
+        </div>
 
         <!-- Terceira linha de itens a serem selecionados -->
-        <div class="sobremesa"></div>
+        <p class="titulo-sobremesa">Por fim, sua sobremesa</p>
+        <div class="pedido ultimo">
+            <div class="escolha">
+                <img src="images/sobremesa/doce-de-leite.jpg" alt="">
+                <p class="nome-comida">Doce de leite</p>
+                <p class="descricao-comida">Doce de leite com leite direto da vaca bom todo</p>
+                <p class="preço">R$ 4,00</p>
+            </div>
+            <div class="escolha">
+                <img src="images/sobremesa/Receita.ashx.jpeg" alt="">
+                <p class="nome-comida">Doce de goiaba</p>
+                <p class="descricao-comida">Doce de goiaba direto da fruta saindo do forno</p>
+                <p class="preço">R$ 3,00</p>
+            </div>
+            <div class="escolha">
+                <img src="images/sobremesa/receitas-de-doce-de-coco-5.jpg" alt="">
+                <p class="nome-comida">Doce de coco</p>
+                <p class="descricao-comida">Doce de coco natural bem bom, ome, oxente</p>
+                <p class="preço">R$ 3,50</p>
+            </div>
+        </div>
 
         <!-- A barra inferior -->
-        <div class=".barra-inferior"></div>
+        <div class="barra-inferior">
+            <button class="pedir">
+                <p>Selecionar os 3 itens</p>
+                <p>para fechar o pedido</p>
+            </button>
+        </div>
     </div>
+
+    <script src="sistema.js"></script>
 </body>
+
 </html>
