@@ -3,19 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DrivenEats</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <div class="check">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta class="icon-check" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DrivenEats</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 
 <!-- Aqui inicia-se o body -->
@@ -39,8 +40,12 @@
                     <img src="images/comida/cuscus-com-ovo.jpg" alt="">
                     <p class="nome-comida">Cuscuz com ovo</p>
                     <p class="descricao-comida">Negóss vei bom da mulesta dos cachorro</p>
-                    <p class="preço">R$ <span class="valor">15,00</span></p>
+                    <div class="check">
+                        <p class="preço">R$ <span class="valor">15,00</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
+
             </div>
 
             <div class="escolha comida" onclick="selecionarPrato(this, 'comida')">
@@ -48,8 +53,12 @@
                     <img src="images/comida/Pamonha.jpg" alt="">
                     <p class="nome-comida">Pamonha</p>
                     <p class="descricao-comida">Pamonha quentinha saindo do forno</p>
-                    <p class="preço">R$ <span class="valor">17,00</span></p>
+                    <div class="check">
+                        <p class="preço">R$ <span class="valor">17,00</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
+
             </div>
 
             <div class="escolha comida" onclick="selecionarPrato(this, 'comida')">
@@ -57,8 +66,12 @@
                     <img src="images/comida/photo.jpg" alt="">
                     <p class="nome-comida">Canjica</p>
                     <p class="descricao-comida">Canjica docinha do balacobaco de verdade</p>
-                    <p class="preço">R$ <span class="valor">13,00</span></p>
+                    <div class="check">
+                        <p class="preço">R$ <span class="valor">13,00</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -70,8 +83,12 @@
                     <img src="images/bebida/269395-suco-de-uva-e-vinho-quais-as-diferencas-para-a-saude-1.jpg" alt="">
                     <p class="nome-comida">Suco de uva</p>
                     <p class="descricao-comida">Docinho sem açúcar direto do pé</p>
-                    <p class="preço">R$ <span class="valor">5,00</span></p>
+                    <div class="check">
+                        <p class="preço">R$ <span class="valor">5,00</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
+
             </div>
 
             <div class="escolha bebida" onclick="selecionarBebida(this, 'bebida')">
@@ -80,8 +97,12 @@
                         alt="">
                     <p class="nome-comida">Suco de laranja</p>
                     <p class="descricao-comida">Direto da fruta bem docin papai mi dê</p>
-                    <p class="preço">R$ <span class="valor">4,50</span></p>
+                    <div class="check">
+                        <p class="preço">R$ <span class="valor">4,50</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
+
             </div>
 
             <div class="escolha bebida" onclick="selecionarBebida(this, 'bebida')">
@@ -89,8 +110,12 @@
                     <img src="images/bebida/Suco-maracujá.png" alt="">
                     <p class="nome-comida">Suco de maracujá</p>
                     <p class="descricao-comida">Do balacobaco esse suquito</p>
-                    <p class="preço">R$ <span class="valor">6,00</span></p>
+                    <div class="check">
+                        <p class="preço">R$ <span class="valor">6,00</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -102,8 +127,15 @@
                     <img src="images/sobremesa/doce-de-leite.jpg" alt="">
                     <p class="nome-comida">Doce de leite</p>
                     <p class="descricao-comida">Doce de leite com leite direto da vaca bom todo</p>
-                    <p class="preço">R$ <span class="valor">4,00</span></p>
+                    <div class="check">
+
+                        <p class="preço">R$ <span class="valor">4,00</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
+
+
                 </div>
+
             </div>
 
             <div class="escolha sobremesa" onclick="selecionarSobremesa(this, 'sobremesa')">
@@ -111,7 +143,13 @@
                     <img src="images/sobremesa/Receita.ashx.jpeg" alt="">
                     <p class="nome-comida">Doce de goiaba</p>
                     <p class="descricao-comida">Doce de goiaba direto da fruta saindo do forno</p>
-                    <p class="preço">R$ <span class="valor">3,00</span></p>
+                    <div class="check">
+
+                        <p class="preço">R$ <span class="valor">3,00</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
+
+
                 </div>
             </div>
 
@@ -120,14 +158,21 @@
                     <img src="images/sobremesa/receitas-de-doce-de-coco-5.jpg" alt="">
                     <p class="nome-comida">Doce de coco</p>
                     <p class="descricao-comida">Doce de coco natural bem bom, ome, oxente</p>
-                    <p class="preço">R$ <span class="valor">3,50</span></p>
+                    <div class="check">
+
+                        <p class="preço">R$ <span class="valor">3,50</span></p>
+                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                    </div>
+
+
                 </div>
+
             </div>
         </div>
 
         <!-- A barra inferior -->
         <div class="barra-inferior">
-            <button class="pedir">
+            <button class="pedir" onclick="confirmarPedido()">
                 <p>Selecionar os 3 itens</p>
                 <p>para fechar o pedido</p>
             </button>
@@ -135,6 +180,8 @@
     </div>
 
     <script src="sistema.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
