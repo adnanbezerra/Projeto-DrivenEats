@@ -33,4 +33,4 @@ Primeiro, faça o clone desse repositório na sua maquina:
 git clone https://github.com/adnanbezerra/projeto3-driveneats
 ```
 
-Depois, dentro da pasta, basta abrir o arquivo index.html no seu navegador e já estará tudo funcional.
+Depois, dentro da pasta src, basta abrir o arquivo ./src/index.html no seu navegador e já estará tudo funcional.
