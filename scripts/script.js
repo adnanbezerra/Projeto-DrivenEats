@@ -102,12 +102,16 @@ function atualizarBotao() {
 }
 
 function confirmarPedido() {
-    const mensagem = `Olá, gostaria de fazer o pedido:
+    const mensagem = getMensagem();
+
+    const mensagemEncoded = encodeURIComponent(mensagem);
+    window.open(`https://wa.me/5583981991617?text=${mensagemEncoded}`, "_blank");
+}
+
+function getMensagem() {
+    return `Olá, gostaria de fazer o pedido:
     - Prato: ${nomeComida}
     - Bebida: ${nomeBebida}
     - Sobremesa: ${nomeSobremesa}
     Total: R$ ${valorPedidos.toFixed(2)}`
-
-    const mensagemEncoded = encodeURIComponent(mensagem);
-    window.open(`https://wa.me/5583981991617?text=${mensagemEncoded}`, "_blank");
 }
