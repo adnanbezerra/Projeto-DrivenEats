@@ -16,8 +16,6 @@ DrivenEats é um dos primeiros projetos feitos na formação em desenvolvimento 
 
 Trata-se, com isso, de uma aplicação simples para imitar um serviço de requisição de refeições. Um cardápio é fornecido e diferentes tipos de pratos podem ser escolhidos, com um somatório do valor da compra aparecendo ao final e permitindo enviar uma mensagem ao WhatsApp para solicitar que o pedido seja "enviado".
 
-***
-
 ## :computer: Tecnologias e Conceitos
 
 - JavaScript
